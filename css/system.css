@@ -858,6 +858,28 @@ a.home-hero-title-link:focus-visible {
   color: var(--primary);
 }
 
+/* Course: Markdown / page headings in green (accent-2) */
+.article-shell--course .page-title,
+.article-shell--course .post-content h1,
+.article-shell--course .post-content h2,
+.article-shell--course .post-content h3,
+.article-shell--course .post-content h4,
+.article-shell--course .post-content h5,
+.article-shell--course .post-content h6 {
+  color: var(--accent-2);
+}
+
+.page-shell--course .page-title,
+.page-shell--course .section-title,
+.page-shell--course .prose-block h1,
+.page-shell--course .prose-block h2,
+.page-shell--course .prose-block h3,
+.page-shell--course .prose-block h4,
+.page-shell--course .prose-block h5,
+.page-shell--course .prose-block h6 {
+  color: var(--accent-2);
+}
+
 .post-content .katex-display {
   margin: 1.2rem 0;
   padding: 1rem 0.9rem;
